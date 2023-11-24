@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://127.0.0.1:8000/submit-student" method="post">
+        <label for="id">id</label>
+        <input type="number" placeholder="enter your id" name="id" id="id">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your Name"><br><br>
+        <label for="standard">standard</label>
+        <input type="number" name="standard" id="standard" placeholder="enter your standard"><br><br>
+        <label for="gender">gender</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="others">
+        <label for="others">others</label><br><br>
+        <label for="mobile">mobile</label>
+        <input type="number" name="mobile" id="mobile" minlength="10" maxlength="10"
+            placeholder="enter your mobile No"><br><br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" placeholder="enter your email"><br><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="enter your password"><br><br>
+        <button type="submit">submit</button>&nbsp;&nbsp;
+        <input type="reset">
+    </form>
+</body>
+
+</html>
